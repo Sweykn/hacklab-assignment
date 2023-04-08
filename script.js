@@ -1,4 +1,4 @@
-// Traffic light 
+// Traffic lights
 const states = {
     RED: 'red',
     YELLOW: 'yellow',
