@@ -6,13 +6,7 @@ body {
 h1 {
     margin-top: 0;
 }
-#traffic-light {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 300px; /* Update height to fit your requirements */
-  justify-content: space-around;
-}
+
 .traffic-light {
     width: 100px;
     height: 280px;
@@ -51,25 +45,4 @@ button {
     margin: 5px;
     font-size: 16px;
     padding: 10px 20px;
-}
-.button {
-  width: 100px;
-  height: 100px;
-  background-color: black;
-  border-radius: 50%;
-  border: none;
-  outline: none;
-}
-
-/* Styles for different button colors based on traffic light state */
-.button#red {
-  background-color: red;
-}
-
-.button#yellow {
-  background-color: yellow;
-}
-
-.button#green {
-  background-color: green;
 }
